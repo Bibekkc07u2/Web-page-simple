@@ -1,118 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles/headermain.css">
-    <link rel="stylesheet" href="styles/hearder1.css">
-    <link rel="stylesheet" href="styles/general.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/headermain.css" />
+    <link rel="stylesheet" href="styles/hearder1.css" />
+    <link rel="stylesheet" href="styles/general.css" />
     <style>
-        .image-1
-        {
-            height: 770px;
-            width: 100%;
-        }
+      .image-1 {
+        height: 770px;
+        width: 100%;
+      }
 
-        .images-container
-        {
-            position: relative;
-        }
+      .images-container {
+        position: relative;
+      }
 
-        .texts
-        {
-            position: absolute;
-            top: 150px;
-            left: 250px;
-            color: whitesmoke;
-        }
+      .texts {
+        position: absolute;
+        top: 150px;
+        left: 250px;
+        color: whitesmoke;
+      }
 
-        .text-container
-        {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-        }
+      .text-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
 
-        .texts div{
-            height: 20px;
-            background-color: aliceblue;
-            width: 130px;
-            height: 30px;
-            color: black;
-        }
+      .texts div {
+        height: 20px;
+        background-color: aliceblue;
+        width: 130px;
+        height: 30px;
+        color: black;
+      }
 
+      .location-of-resort-country {
+        color: #f35525;
+      }
 
-        .location-of-resort-country
-        {
-            color: #F35525;
-        }
+      .location-of-resort-country,
+      .location-of-resort-local {
+        font-size: 15px;
+        font-weight: 500;
+        padding-left: 3px;
+      }
 
-        .location-of-resort-country, .location-of-resort-local
-        {
-            font-size: 15px;
-            font-weight: 500;
-            padding-left: 3px;
-        }
+      .contents-to-advertise {
+        font-size: 50px;
+        font-weight: 600;
+      }
 
-        .contents-to-advertise
-        {
-            font-size: 50px;
-            font-weight: 600;
-        }
+      .status {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 170px;
+      }
+
+      .image-2 {
+        height: 450px;
+        object-fit: cover;
+      }
+      .about-us {
+        height: 458px;
+        width: 450px;
+        padding-left: 30px;
+      }
+
+      .apartment {
+        padding-left: 20px;
+      }
+      .featured-div {
+        border-left: 3px solid #f35525;
+      }
+      .FEATURED {
+        margin-top: 0;
+        color: #f35525;
+        padding-left: 14px;
+        font-size: 16px;
+
+        font-weight: bold;
+      }
+
+      .about-ourselve {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        padding-left: 20px;
+        width: 250px;
+        margin-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid gray;
+       
+      }
+       .about-ourselvei {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        padding-left: 20px;
+        width: 250px;
+        margin-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        
+       }
+      .icon-container{
+        box-shadow: 0px 0px 6px gray;
+         border-radius: 20px; 
+         height: 400px;
+      }
+
+      .about-ourselve p, .about-ourselvei p {
+        margin-left: 20px;
+      }
+      .area {
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 8px;
+        margin-bottom: 0;
+        padding-top: 0px;
+      }
+
+      .information {
+        font-size: 13px;
+      
+        margin-top: 9px;
+        color: rgb(181, 182, 183);
+      }
+
+      .tips {
+        background-color: rgb(248, 253, 253);
+        padding: 10px;
+        margin-left: 15px;
+        width: 370px;
+        box-shadow: 1px 1px 8px rgb(111, 111, 111);
+        border-radius: 20px;
+      }
+
+      .image-container {
+        position: relative;
+      }
+      .image-icon-container {
+        position: absolute;
+        top: 400px;
+        left: -50px;
+        background-color: #f35525;
+        height: 50px;
+        width: 50px;
+        padding: 20px;
+        border-radius: 44px;
+      }
+
+      .best, .how, .get, .why
+      {
+        border-bottom: 1px solid gainsboro;
+      }
+      span{
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: underline;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="headermain">
-        <div class="left-section">
-            <div class="mail-icon"> 
-                <i class="fa-solid fa-envelope"></i>
-                <p>info@company.com</p></div>
-          
-             <i class="fa-solid fa-location-pin"></i>   
-                <p>Sunny Isles Beach, FL 33160</p>
+      <div class="left-section">
+        <div class="mail-icon">
+          <i class="fa-solid fa-envelope"></i>
+          <p>info@company.com</p>
         </div>
-        <div class="right-section">
-            <div class="facebook-div">
-                <i class="fa-brands fa-facebook"></i>
-            </div>
-            <div class="twitter-div">
-                <i class="fa-brands fa-twitter"></i>
-            </div>
-            <div class="linkin-div">
-                <i class="fa-brands fa-linkedin"></i>
-            </div>
-            <div class="instagram-div">
-                <i class="fa-brands fa-instagram"></i>
-            </div>
+
+        <i class="fa-solid fa-location-pin"></i>
+        <p>Sunny Isles Beach, FL 33160</p>
+      </div>
+      <div class="right-section">
+        <div class="facebook-div">
+          <i class="fa-brands fa-facebook"></i>
         </div>
+        <div class="twitter-div">
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div class="linkin-div">
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="instagram-div">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
     </div>
     <div class="header1">
-        <div class="villa">VILLA</div>
-        <div class="right-section1">
-            <div><p>Home</p></div>
-            <div><p>Properties</p></div>
-            <div><p>Property Details</p></div>
-            <div><p>Contact us</p></div>
-            <div class="schedule-button">
-               <div class="calender-div"> <i class="fa-solid fa-calendar"></i></div>
-            <div><p>Schedule a visit</p></div></div>
+      <div class="villa">VILLA</div>
+      <div class="right-section1">
+        <div><p>Home</p></div>
+        <div><p>Properties</p></div>
+        <div><p>Property Details</p></div>
+        <div><p>Contact us</p></div>
+        <div class="schedule-button">
+          <div class="calender-div"><i class="fa-solid fa-calendar"></i></div>
+          <div><p>Schedule a visit</p></div>
         </div>
+      </div>
     </div>
     <div class="images-container">
-        <img src="images/pexels-pixabay-221457.jpg" class="image-1">
-        <div class="texts">
-           <div class="text-container"> <p class="location-of-resort-local">
-                Toronato,</p><p  class="location-of-resort-country">Canada</p></div>
-            <p class="contents-to-advertise">
-                HURRY!<br>
-                GET THE BEST<br>
-                VILLA FOR<br>
-                YOU
-            </p>
+      <img src="images/pexels-pixabay-221457.jpg" class="image-1" />
+      <div class="texts">
+        <div class="text-container">
+          <p class="location-of-resort-local">Toronato,</p>
+          <p class="location-of-resort-country">Canada</p>
         </div>
+        <p class="contents-to-advertise">
+          HURRY!<br />
+          GET THE BEST<br />
+          VILLA FOR<br />
+          YOU
+        </p>
+      </div>
     </div>
-</body>
+    <div class="status">
+      <div class="image-container">
+        <img class="image-2" src="images1/featured.jpg" />
+        <div class="image-icon-container">
+          <img class="featured-icon" src="images1/featured-icon (1).png" />
+        </div>
+      </div>
+      <div class="about-us">
+        <div class="apartment">
+          <div class="featured-div">
+            <p class="FEATURED">FEATURED</p>
+          </div>
+          <h1>
+            <p>Best Appartment<br>& Sea View</p>
+          </h1>
+        </div>
+        <div class="tips">
+          <div>
+            <div class="best"><p>Best useful links</p></div>
+            <div class="get">
+              <p>
+                Get the <span>Best</span> villa website template in HTML CSS and Bootstrap
+                for your business. TemplateMo provides you the best free CSS
+                templates in the world. Please tell your friends about it.
+              </p>
+            </div>
+          </div>
+          <div class="how">
+            <p>How does this work ?</p>
+          </div>
+          <div class="why">
+            <p>Why is Villa Agency the best ?</p>
+          </div>
+        </div>
+      </div>
+      <div class="icon-container">
+        <div class="about-ourselve">
+          <div><img class="icon1" src="icons/info-icon-01.png" /></div>
+          <div>
+            <p class="area">250m2</p>
+            <p class="information">Total Flat Space</p>
+          </div>
+        </div>
+        <div class="about-ourselve">
+          <div>
+            <img src="icons/info-icon-02.png" />
+          </div>
+          <div>
+            <p class="area">Contract</p>
+            <p class="information">Contract Ready</p>
+          </div>
+        </div>
+        <div class="about-ourselve">
+          <div><img src="icons/info-icon-03.png" /></div>
+          <div>
+            <p class="area">Payment</p>
+            <p class="information">Payment Process</p>
+          </div>
+        </div>
+        <div class="about-ourselvei">
+          <div><img src="icons/info-icon-04.png" /></div>
+          <div>
+            <p class="area">Safety</p>
+            <p class="information">24/7 Under Control</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

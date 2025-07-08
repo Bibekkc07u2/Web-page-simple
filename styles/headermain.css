@@ -56,9 +56,9 @@
         }
         .right-section div{
             background-color: rgb(180, 182, 182);
-            height: 26px;
-            width: 26px;  
-            border-radius: 13px;
+            height: 30px;
+            width: 30px;  
+            border-radius: 15px;
         }
 
        .fa-facebook, .fa-twitter, .fa-linkedin, .fa-instagram
@@ -67,7 +67,7 @@
        }
 
         .right-section div i{
-            padding: 5px;
+            padding: 7px;
             cursor: pointer;
         }
 
