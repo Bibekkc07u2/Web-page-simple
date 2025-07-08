@@ -14,6 +14,54 @@
             height: 770px;
             width: 100%;
         }
+
+        .images-container
+        {
+            position: relative;
+        }
+
+        .texts
+        {
+            position: absolute;
+            top: 150px;
+            left: 250px;
+            color: whitesmoke;
+        }
+
+        .text-container
+        {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .texts div{
+            height: 20px;
+            background-color: aliceblue;
+            width: 130px;
+            height: 30px;
+            color: black;
+        }
+
+
+        .location-of-resort-country
+        {
+            color: #F35525;
+        }
+
+        .location-of-resort-country, .location-of-resort-local
+        {
+            font-size: 15px;
+            font-weight: 500;
+            padding-left: 3px;
+        }
+
+        .contents-to-advertise
+        {
+            font-size: 50px;
+            font-weight: 600;
+        }
     </style>
 </head>
 <body>
@@ -53,8 +101,18 @@
             <div><p>Schedule a visit</p></div></div>
         </div>
     </div>
-    <div>
+    <div class="images-container">
         <img src="images/pexels-pixabay-221457.jpg" class="image-1">
+        <div class="texts">
+           <div class="text-container"> <p class="location-of-resort-local">
+                Toronato,</p><p  class="location-of-resort-country">Canada</p></div>
+            <p class="contents-to-advertise">
+                HURRY!<br>
+                GET THE BEST<br>
+                VILLA FOR<br>
+                YOU
+            </p>
+        </div>
     </div>
 </body>
 </html>
