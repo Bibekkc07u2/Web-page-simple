@@ -1,0 +1,76 @@
+        .headermain
+        {
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            column-gap: 160px;
+            justify-content: space-between;
+            border-bottom: 1px solid rgb(188, 185, 185);
+            margin-top: 0px;
+        }
+
+        .left-section
+        {
+            display: flex;
+            align-items: center;
+            justify-content: row;
+            column-gap: 15px;
+            font-size: 16px;
+           margin-left: 100px;
+           
+        }
+
+         .headermain .left-section p
+         {
+            color: rgb(182, 183, 184);
+         }
+
+        .left-section .mail-icon
+        {
+             display: flex;
+            align-items: center;
+            justify-content: row;
+            padding-right: 20px;
+        }
+
+         .left-section .mail-icon p
+        {
+            padding-right: 50px;
+             border-right: 1px solid rgb(174, 173, 173);
+        }
+
+        .fa-envelope, .fa-location-pin
+        {
+            color:  #F35525;
+            margin-right: 9px;
+        }
+
+
+        .right-section
+        {
+            display: flex;
+            flex-direction: row;
+            column-gap: 15px;
+            align-items: center;
+            margin-right: 100px;
+        }
+        .right-section div{
+            background-color: rgb(180, 182, 182);
+            height: 26px;
+            width: 26px;  
+            border-radius: 13px;
+        }
+
+       .fa-facebook, .fa-twitter, .fa-linkedin, .fa-instagram
+       {
+        color: white;
+       }
+
+        .right-section div i{
+            padding: 5px;
+            cursor: pointer;
+        }
+
+     .right-section div:hover{
+         background-color:  #F35525;
+        }
