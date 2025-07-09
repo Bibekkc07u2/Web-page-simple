@@ -160,3 +160,22 @@ span {
   font-weight: bold;
   text-decoration: underline;
 }
+.best
+{
+  font-size: 20px;
+  color: #f35525;
+}
+.how, .why{
+  font-weight: 600;
+  font-size: 17px;
+}
+.free
+{
+  color: blue;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+.get{
+  font-size: 18px;
+}

@@ -15,7 +15,128 @@
     <link rel="stylesheet" href="styles/hearder1.css" />
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/body1.css" />
-    <style></style>
+    <style>
+      .back-div
+      {
+        height: 900px;
+      }
+      .back-ground-image
+      {
+        display: block;
+        padding-top: 180px;
+        background-image: url('images1/ball.jpg');
+        background-size: contain;
+        height: 100vh;
+        background-position: center;
+        position: relative;
+        background-repeat: no-repeat;
+       
+      }
+      .video-view
+      {
+        height: 14px;
+        border-left: 2px solid #f35525;
+        padding-left: 20px;
+        color:  #f35525;
+        position: absolute;
+        top: 300px;
+        left: 650px;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      .get-closer
+      {
+         color: white;
+         position: absolute;
+        top: 310px;
+        left: 530px;
+         font-weight: 600;
+         font-size: 30px;
+      }
+      .video-frame
+      {
+        position: absolute;
+       height: 380px;
+       top: 520px;
+       left: 300px;
+      }
+
+      .featured-icon
+      {
+         cursor: pointer;
+      }
+  
+      .play-button
+      {
+        position: absolute;
+        top: 720px;
+        left: 700px;
+        height: 70px;
+        width: 70px;
+        border-radius: 35px;
+        background-color: #f35525;
+        box-shadow: 0 0 15px  #f35525;
+        cursor: pointer;
+      }
+    
+      .fa-play
+      {
+        margin-top: 25px;
+        margin-left: 29px;
+        color: aliceblue;
+      }
+      .three-div-container
+      {
+        align-items: center;
+        display: flex;
+       justify-content: space-around;
+        height: 350px;
+      }
+      .buildings
+      {
+        height: 80px;
+        width: 280px;
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px;
+        background-color: #FFEEE9;
+         position: relative;
+      }
+  
+      .thirty-four
+      {
+        color: #f35525;
+        width: 80px;
+        padding-top: 20px;
+        padding-left: 40px;
+        font-size: 40px;
+        font-weight: 700;
+      }
+      .thirty-five
+      {
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 600;
+       
+      }
+      .thirty-five p
+      {
+          margin-top: 0;
+          margin-bottom: 7px;
+      }
+      .blank-div
+      {
+        position: absolute;
+        right: -15px;
+        top: -20px;
+        height: 50px;
+        width: 50px;
+
+        border-radius: 25px;
+        background-color:      #f35525;
+      }
+    </style>
   </head>
   <body>
     <div class="headermain">
@@ -93,8 +214,8 @@
             <div class="get">
               <p>
                 Get the <span>Best</span> villa website template in HTML CSS and
-                Bootstrap for your business. TemplateMo provides you the best
-                free CSS templates in the world. Please tell your friends about
+                Bootstrap for your business. TemplateMo provides you the <span class="free"> best
+                free CSS templates</span> in the world. Please tell your friends about
                 it.
               </p>
             </div>
@@ -139,6 +260,58 @@
           </div>
         </div>
       </div>
+    </div>
+     <div class="back-div">
+      <div class="back-ground-image">
+        <div class="video-view">VIDEO VIEW
+        </div>
+     <div class="get-closer">
+       <h2>Get Closer View &<br>Different Feeling</h2>
+      </div>
+<div class="front-image">
+  <img class="video-frame" src="images1/video-frame.jpg">
+  <div class="play-button">
+    <i class="fa-solid fa-play"></i>
+  </div>
+  </div>
+     </div>
+     </div>
+      
+     <div class="three-div-container">
+      <div class="buildings">
+           <div class="blank-div"></div>
+        <div class="thirty-four">
+34
+      </div>
+      <div class="thirty-five">
+<p>Buildings</p>
+<p>Finished Now</p>
+      </div>
+ 
+    </div>
+   
+    <div class="buildings">
+           <div class="blank-div"></div>
+        <div class="thirty-four">
+12
+      </div>
+      <div class="thirty-five">
+<p>Years</p>
+<p>Experience</p>
+      </div>
+ 
+    </div>
+       <div class="buildings">
+           <div class="blank-div"></div>
+        <div class="thirty-four">
+24
+      </div>
+      <div class="thirty-five">
+<p>Awwards</p>
+<p>Won 2023</p>
+      </div>
+ 
+    </div>
     </div>
   </body>
 </html>

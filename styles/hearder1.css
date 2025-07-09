@@ -13,9 +13,10 @@
   column-gap: 59px;
 }
 .villa {
-  font-size: 23px;
+  font-size: 25px;
   margin-left: 70px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .right-section1 div p {
@@ -24,6 +25,7 @@
 
 .right-section1 div p:hover {
   color: #f35525;
+  cursor: pointer;
 }
 
 .schedule-button {
@@ -35,6 +37,7 @@
   background-color: rgb(4, 4, 4);
   border-radius: 17px;
   color: white;
+  cursor: pointer;
 }
 .calender-div {
   background-color: #f35525;
