@@ -1,52 +1,44 @@
-.image-1 {
+.hero-image {
   height: 770px;
   width: 100%;
 }
 
-.images-container {
+.hero-container {
   position: relative;
 }
 
-.texts {
+.hero-text-content {
   position: absolute;
   top: 150px;
   left: 250px;
   color: whitesmoke;
 }
 
-.text-container {
+.location-text-group {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-.texts div {
-  height: 20px;
-  background-color: aliceblue;
-  width: 130px;
-  height: 30px;
-  color: black;
-}
-
-.location-of-resort-country {
+.location-text {
   color: #f35525;
 }
 
-.location-of-resort-country,
-.location-of-resort-local {
+.location-text,
+.city-text {
   font-size: 15px;
   font-weight: 500;
   padding-left: 3px;
 }
 
-.contents-to-advertise {
+.hero-headline {
   font-size: 50px;
   font-weight: 600;
   transition: transform 0.5s ease;
 }
 
-.status {
+.property-showcase {
   padding-top: 100px;
   display: flex;
   flex-direction: row;
@@ -54,23 +46,23 @@
   padding-left: 170px;
 }
 
-.image-2 {
+.property-image {
   height: 450px;
   object-fit: cover;
 }
-.about-us {
+.property-details {
   height: 458px;
   width: 450px;
   padding-left: 30px;
 }
 
-.apartment {
+.featured-label-container {
   padding-left: 20px;
 }
-.featured-div {
+.featured-tag {
   border-left: 3px solid #f35525;
 }
-.FEATURED {
+.featured-text {
   margin-top: 0;
   color: #f35525;
   padding-left: 14px;
@@ -79,7 +71,7 @@
   font-weight: bold;
 }
 
-.about-ourselve {
+.info-card {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -91,7 +83,7 @@
   padding-bottom: 15px;
   border-bottom: 2px solid gray;
 }
-.about-ourselvei {
+.info-card-no-border {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -102,17 +94,17 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.icon-container {
+.info-card-icon {
   box-shadow: 0px 0px 6px gray;
   border-radius: 20px;
   height: 400px;
 }
 
-.about-ourselve p,
-.about-ourselvei p {
+.info-card p,
+.info-card-no-border p {
   margin-left: 20px;
 }
-.area {
+.info-value {
   font-weight: 600;
   font-size: 20px;
   margin-top: 8px;
@@ -120,14 +112,14 @@
   padding-top: 0px;
 }
 
-.information {
+.info-label {
   font-size: 13px;
 
   margin-top: 9px;
   color: rgb(181, 182, 183);
 }
 
-.tips {
+.tips-card {
   background-color: rgb(248, 253, 253);
   padding: 10px;
   margin-left: 15px;
@@ -136,10 +128,10 @@
   border-radius: 20px;
 }
 
-.image-container {
+.property-image-wrapper {
   position: relative;
 }
-.image-icon-container {
+.featured-badge {
   position: absolute;
   top: 400px;
   left: -50px;
@@ -150,42 +142,38 @@
   border-radius: 44px;
 }
 
-.best,
-.how,
-.get,
-.why {
+.card-section-title {
   border-bottom: 1px solid gainsboro;
 }
-span {
+.card-highlight {
   font-size: 18px;
   font-weight: bold;
   text-decoration: underline;
 }
-.best {
+.card-section-main {
   font-size: 20px;
   color: #f35525;
 }
-.how,
-.why {
+.card-section-sub {
   font-weight: 600;
   font-size: 17px;
 }
-.free {
+.free-offer {
   color: blue;
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
 }
-.get {
+.card-section-text {
   font-size: 18px;
 }
 
-.back-div {
+.video-background-section {
   height: 900px;
   max-width: 100%;
   padding-top: 20px;
 }
-.back-ground-image {
+.video-background {
   background-image: url("../images1/ball.jpg");
   margin-top: 100px;
   background-size: contain;
@@ -197,7 +185,7 @@ span {
   background-repeat: no-repeat;
 }
 
-.video-view {
+.video-label {
   height: 14px;
   border-left: 2px solid #f35525;
   padding-left: 20px;
@@ -208,7 +196,7 @@ span {
   font-size: 15px;
   font-weight: 600;
 }
-.get-closer {
+.video-title {
   color: white;
   position: absolute;
   top: 190px;
@@ -216,14 +204,14 @@ span {
   font-weight: 600;
   font-size: 30px;
 }
-.video-frame {
+.video-player {
   position: absolute;
   height: 380px;
   top: 460px;
   left: 300px;
 }
 
-.featured-icon {
+.featured-badge-icon {
   cursor: pointer;
 }
 
@@ -239,18 +227,18 @@ span {
   cursor: pointer;
 }
 
-.fa-play {
+.play-icon {
   margin-top: 25px;
   margin-left: 29px;
   color: aliceblue;
 }
-.three-div-container {
+.stats-container {
   align-items: center;
   display: flex;
   justify-content: space-around;
   height: 350px;
 }
-.buildings {
+.stat-card {
   height: 80px;
   width: 280px;
   display: flex;
@@ -260,7 +248,7 @@ span {
   position: relative;
 }
 
-.thirty-four {
+.stat-number {
   color: #f35525;
   width: 80px;
   padding-top: 20px;
@@ -268,17 +256,17 @@ span {
   font-size: 40px;
   font-weight: 700;
 }
-.thirty-five {
+.stat-text {
   margin-top: 20px;
   margin-left: 10px;
   font-size: 15px;
   font-weight: 600;
 }
-.thirty-five p {
+.stat-text p {
   margin-top: 0;
   margin-bottom: 7px;
 }
-.blank-div {
+.stat-badge {
   position: absolute;
   right: -15px;
   top: -20px;
@@ -288,15 +276,184 @@ span {
   background-color: #f35525;
 }
 
-@media (max-width: 908px) {
-  .contents-to-advertise {
+.about-us {
+  height: auto;
+  background-color: #fafafa;
+}
+.best-deals {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.deals {
+  padding-left: 80px;
+}
+.best {
+  margin-top: 30px;
+  color: #f35525;
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.find-us {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 35px;
+  font-weight: 800;
+  margin-left: 10px;
+}
+
+.different-houses-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  margin-right: 70px;
+  align-items: end;
+}
+.appartment-div,
+.villa-house-div,
+.pent-house-div {
+  height: 25px;
+  width: 120px;
+  background-color: azure;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  cursor: pointer;
+  justify-content: center;
+}
+.appartment-div {
+  background-color: #f35525;
+}
+.villa-house-div,
+.pent-house-div {
+  background-color: black;
+}
+.appartment-div p,
+.villa-house-div p,
+.pent-house-div p {
+  font-size: 15px;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.all-three-item-container {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-around;
+  padding-left: 50px;
+}
+.main-info {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  box-shadow: 0 0 4px gray;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-top: 15px;
+  border-radius: 10px;
+  height: 290px;
+  width: 235px;
+}
+.image-section {
+  margin-left: -40px;
+}
+.booking-section {
+  margin-left: -40px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.booking-section div span {
+  margin-top: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.booking-section div pre {
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #676666;
+}
+.total-space {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 15px;
+  border-bottom: 1px solid rgb(220, 218, 218);
+  column-gap: 10px;
+}
+
+.total-spaces {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.total-space div p,
+.total-spaces div p {
+  font-size: 14px;
+  color: #aaaaaa;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.total-space div,
+.total-spaces div {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e1e1e;
+  white-space: nowrap;
+}
+
+.deal-image {
+  height: 340px;
+}
+
+.schedule-visit-btn {
+  width: 180px;
+  margin-top: -20px;
+}
+
+@media (max-width: 1100px) {
+  .hero-headline {
     transform: translateX(-20px);
   }
-  .status {
+  .property-showcase {
     flex-direction: column;
     gap: 100px;
   }
-  .back-div {
-    transform: scale(0.9); /* Adjust this number as needed */
+  .video-background-section {
+    transform: scale(0.9);
+  }
+  .stats-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .best-deals {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .different-houses-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .all-three-item-container {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
   }
 }

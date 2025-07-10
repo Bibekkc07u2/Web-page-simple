@@ -1,87 +1,89 @@
-.header1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 90px;
-  align-items: center;
-}
-.right-section1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-right: 100px;
-  column-gap: 59px;
-}
-.villa-div-container {
-  display: flex;
-}
-.villa {
-  position: static;
-  font-size: 25px;
-  margin-left: 70px;
-  font-weight: 700;
-  cursor: pointer;
-}
+    .main-navigation {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 90px;
+      align-items: center;
+      position: sticky;
+      z-index: 1000;
+    }
+    .nav-links-group {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-right: 100px;
+      column-gap: 59px;
+    }
+    .logo-container {
+      display: flex;
+    }
+    .company-logo {
+      position: static;
+      font-size: 25px;
+      margin-left: 70px;
+      font-weight: 700;
+      cursor: pointer;
+    }
 
-.right-section1 div p {
-  font-weight: 600;
-  font-size: 14px;
-}
+    .nav-links-group div p {
+      font-weight: 600;
+      font-size: 14px;
+    }
 
-.right-section1 div p:hover {
-  color: #f35525;
-  cursor: pointer;
-}
+    .nav-links-group div p:hover {
+      color: #f35525;
+      cursor: pointer;
+    }
 
-.schedule-button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 36px;
-  background-color: rgb(4, 4, 4);
-  border-radius: 17px;
-  color: white;
-  cursor: pointer;
-}
-.calender-div {
-  background-color: #f35525;
-  width: 36px;
-  height: 36px;
-  border-radius: 18px;
-  margin-left: -2px;
-}
+    .schedule-visit-btn {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 38px;
+      background-color: rgb(4, 4, 4);
+      border-radius: 17px;
+      color: white;
+      cursor: pointer;
+    }
+    .calendar-icon-container {
+      background-color: #f35525;
+      width: 38px;
+      height: 38px;
+      border-radius: 19px;
+      margin-left: -8px;
+    }
 
-.schedule-button div p {
-  padding: 16px;
-}
+    .schedule-visit-btn div p {
+      padding: 16px;
+    }
 
-.fa-calendar {
-  padding: 10px;
-}
+    .calendar-icon {
+      padding: 10px;
+    }
 
-.hamburger-icon {
-  display: none;
-}
+    .mobile-menu-toggle {
+      display: none;
+    }
 
-@media (max-width: 900px) {
-  .right-section1 {
-    display: none;
-  }
+    @media (max-width: 900px) {
+      .nav-links-group {
+        display: none;
+      }
 
-  .hamburger-icon {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    font-size: 30px;
-    padding: 10px;
-    margin-right: 50px;
-  }
-}
-@media (max-width: 900px) {
-  .villa {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 25px;
-  }
-}
+      .mobile-menu-toggle {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-size: 30px;
+        padding: 10px;
+        margin-right: 50px;
+      }
+    }
+    @media (max-width: 900px) {
+      .company-logo {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 25px;
+      }
+    }

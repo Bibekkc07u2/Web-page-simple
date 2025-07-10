@@ -1,4 +1,4 @@
-.headermain {
+.top-contact-bar {
   height: 50px;
   display: flex;
   flex-direction: row;
@@ -8,7 +8,7 @@
   margin-top: 0px;
 }
 
-.left-section {
+.contact-info-group {
   display: flex;
   align-items: center;
   justify-content: row;
@@ -17,60 +17,56 @@
   margin-left: 100px;
 }
 
-.headermain .left-section p {
+.top-contact-bar .contact-info-group p {
   color: rgb(182, 183, 184);
 }
 
-.left-section .mail-icon {
+.contact-info-group .email-with-icon {
   display: flex;
   align-items: center;
   justify-content: row;
   padding-right: 20px;
 }
 
-.left-section .mail-icon p {
+.contact-info-group .email-with-icon p {
   padding-right: 50px;
   border-right: 1px solid rgb(174, 173, 173);
 }
 
-.fa-envelope,
-.fa-location-pin {
+.contact-icon {
   color: #f35525;
   margin-right: 9px;
 }
 
-.right-section {
+.social-media-group {
   display: flex;
   flex-direction: row;
   column-gap: 15px;
   align-items: center;
   margin-right: 100px;
 }
-.right-section div {
+.social-media-group div {
   background-color: rgb(180, 182, 182);
   height: 30px;
   width: 30px;
   border-radius: 15px;
 }
 
-.fa-facebook,
-.fa-twitter,
-.fa-linkedin,
-.fa-instagram {
+.social-icon {
   color: white;
 }
 
-.right-section div i {
+.social-media-group div i {
   padding: 7px;
   cursor: pointer;
 }
 
-.right-section div:hover {
+.social-media-group div:hover {
   background-color: #f35525;
 }
 
 @media (max-width: 1010px) {
-  .headermain {
+  .top-contact-bar {
     display: none;
   }
 }
