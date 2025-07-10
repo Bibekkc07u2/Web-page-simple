@@ -68,3 +68,9 @@
 .right-section div:hover {
   background-color: #f35525;
 }
+
+@media (max-width: 1010px) {
+  .headermain {
+    display: none;
+  }
+}

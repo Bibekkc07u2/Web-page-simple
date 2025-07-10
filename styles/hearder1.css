@@ -12,7 +12,11 @@
   margin-right: 100px;
   column-gap: 59px;
 }
+.villa-div-container {
+  display: flex;
+}
 .villa {
+  position: static;
   font-size: 25px;
   margin-left: 70px;
   font-weight: 700;
@@ -21,6 +25,7 @@
 
 .right-section1 div p {
   font-weight: 600;
+  font-size: 14px;
 }
 
 .right-section1 div p:hover {
@@ -53,4 +58,30 @@
 
 .fa-calendar {
   padding: 10px;
+}
+
+.hamburger-icon {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .right-section1 {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+    margin-right: 50px;
+  }
+}
+@media (max-width: 900px) {
+  .villa {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+  }
 }

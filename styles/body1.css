@@ -43,6 +43,7 @@
 .contents-to-advertise {
   font-size: 50px;
   font-weight: 600;
+  transition: transform 0.5s ease;
 }
 
 .status {
@@ -160,22 +161,142 @@ span {
   font-weight: bold;
   text-decoration: underline;
 }
-.best
-{
+.best {
   font-size: 20px;
   color: #f35525;
 }
-.how, .why{
+.how,
+.why {
   font-weight: 600;
   font-size: 17px;
 }
-.free
-{
+.free {
   color: blue;
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
 }
-.get{
+.get {
   font-size: 18px;
+}
+
+.back-div {
+  height: 900px;
+  max-width: 100%;
+  padding-top: 20px;
+}
+.back-ground-image {
+  background-image: url("../images1/ball.jpg");
+  margin-top: 100px;
+  background-size: contain;
+  height: 640px;
+  width: 100%;
+  background-position: center;
+  object-fit: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.video-view {
+  height: 14px;
+  border-left: 2px solid #f35525;
+  padding-left: 20px;
+  color: #f35525;
+  position: absolute;
+  top: 150px;
+  left: 650px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.get-closer {
+  color: white;
+  position: absolute;
+  top: 190px;
+  left: 530px;
+  font-weight: 600;
+  font-size: 30px;
+}
+.video-frame {
+  position: absolute;
+  height: 380px;
+  top: 460px;
+  left: 300px;
+}
+
+.featured-icon {
+  cursor: pointer;
+}
+
+.play-button {
+  position: absolute;
+  top: 600px;
+  left: 700px;
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  background-color: #f35525;
+  box-shadow: 0 0 15px #f35525;
+  cursor: pointer;
+}
+
+.fa-play {
+  margin-top: 25px;
+  margin-left: 29px;
+  color: aliceblue;
+}
+.three-div-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  height: 350px;
+}
+.buildings {
+  height: 80px;
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  background-color: #ffeee9;
+  position: relative;
+}
+
+.thirty-four {
+  color: #f35525;
+  width: 80px;
+  padding-top: 20px;
+  padding-left: 40px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.thirty-five {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.thirty-five p {
+  margin-top: 0;
+  margin-bottom: 7px;
+}
+.blank-div {
+  position: absolute;
+  right: -15px;
+  top: -20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: #f35525;
+}
+
+@media (max-width: 908px) {
+  .contents-to-advertise {
+    transform: translateX(-20px);
+  }
+  .status {
+    flex-direction: column;
+    gap: 100px;
+  }
+  .back-div {
+    transform: scale(0.9); /* Adjust this number as needed */
+  }
 }
