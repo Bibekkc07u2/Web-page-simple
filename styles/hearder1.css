@@ -1,11 +1,10 @@
-    .main-navigation {
+  
+   .main-navigation {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       height: 90px;
       align-items: center;
-      position: sticky;
-      z-index: 1000;
     }
     .nav-links-group {
       display: flex;

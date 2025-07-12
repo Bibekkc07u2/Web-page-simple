@@ -16,7 +16,161 @@
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/body1.css" />
   </head>
-  <style></style>
+  <style>
+    .all-items-container
+    {
+      height: auto;
+    }
+    .properties-div
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .properties
+    {
+      font-weight: 600;
+      font-size: 18px;
+      margin-top: 40px;
+     text-align: center;
+      color: #f35525;
+    }
+    .property-provided
+    {
+        text-align: center;
+  font-weight: 800;
+  font-size: 2rem; 
+  line-height: 1.5;
+  font-family: 'Arial', sans-serif; 
+  margin: 0;
+    }
+  
+    .all-assets-container
+    {
+      margin-left: 40px;
+      margin-right: 40px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 30px;
+      row-gap: 40px;
+      padding-top: 20px;
+      background-color: white;
+      margin-top: 50px;
+    }
+    .general-info
+    {
+      padding: 15px;
+      background-color: #FAFAFA;
+      width: 323px;
+      height: 500px;
+      margin-left: 30px;
+      box-shadow: 0 0 10px gray;
+      margin-top: 50px;
+      border-radius: 20px;
+    }
+    .asset01
+    {
+      height: 240px;
+      border-radius: 20px;
+    }
+
+    .villa-type
+    {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .villa-btn
+    {
+      background-color: #FBD9CF;
+      height: 20px;
+      width: auto;
+      padding: 7px;
+      border-radius: 8px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+.bed-bath-div,.bed-bath-divs
+{
+  display: flex;
+  column-gap: 20px;
+  margin-bottom: 0;
+}
+.bed-bath-divs
+{
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgb(221, 219, 219);
+}
+.bed-bath-div p, .bed-bath-divs p{
+  font-size: 11px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #4E4E4E;
+  margin-right: 10px;
+  
+}
+.bed-bath-div p span, .bed-bath-divs p span{
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 5px;
+  color: #0a0a0a;
+}
+.schedule-btn
+{
+  margin-top: 25px;
+  background-color: #0a0a0a;
+  height: 25px;
+  padding: 5px;
+  width: 130px;
+  display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 26px;
+color: white;
+margin-bottom: 8px;
+}
+.lower-div
+{
+  padding-top: 15px;
+}
+.price-div
+{
+  font-size: 18px;
+  font-weight: 700;
+}
+.location-div
+{
+  font-size: 16px;
+  font-weight: 600;
+}
+.schedule-btn-container
+{
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 800px) and (max-width: 1000px)
+{
+  .all-assets-container
+  {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
+@media (max-width: 799px)
+{
+  .all-assets-container
+  {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+  </style>
   <body class="head">
     <div class="top-contact-bar">
       <div class="contact-info-group">
@@ -44,7 +198,7 @@
       </div>
     </div>
     <div>
-      <div class="main-navigation">
+    <div class="main-navigation">
         <div class="logo-container"><div class="company-logo">VILLA</div></div>
         <div class="nav-links-group">
           <div><p>Home</p></div>
@@ -264,6 +418,172 @@ Page Layouts, etc
           </div>
         </div>
       </div>
+    </div>
+    <div class="all-items-container">
+      <div class="properties-div">
+        <div>
+          <p class="properties">| Properties</p>
+          <p class="property-provided">We Provide The Best <br><span>Property You Like</span></p>
+        </div>
+      </div>
+<div class="all-assets-container">
+  <div class="general-info">
+   <div>
+     <img class="asset01" src="images2/property-01.jpg">
+   </div>
+   <div class="lower-div">
+    <div class="villa-type">
+      <div class="villa-btn"><p>Luxury Villa</p></div>
+      <div><p class="price-div">$2.264.000</p></div>
+    </div>
+    <div class="location-div">
+      <p>18 New Street Miami, OR 97219</p>
+    </div>
+    <div class="bed-bath-div">
+      <div><p>Bedrooms:<span>8</span></p></div>
+      <div><p>Bathrooms:<span>8</span></p></div>
+    </div>
+    <div class="bed-bath-divs">
+      <div><p>Area:<span>545m2</span></p></div>
+      <div><p>Floor:<span>3</span></p></div>
+      <div><p>Parking:<span>6 spots</span></p></div>
+    </div>
+    <div class="schedule-btn-container">
+      <div class="schedule-btn">Schedule a visit</div>
+    </div>
+   </div>
+  </div>
+ <div class="general-info">
+   <div>
+     <img class="asset01" src="images2/property-02.jpg">
+   </div>
+   <div class="lower-div">
+    <div class="villa-type">
+      <div class="villa-btn"><p>Luxury Villa</p></div>
+      <div><p class="price-div">$1.180,000</p></div>
+    </div>
+    <div class="location-div">
+      <p>54 Mid Street Florida, OR 27001</p>
+    </div>
+    <div class="bed-bath-div">
+      <div><p>Bedrooms:<span>6</span></p></div>
+      <div><p>Bathrooms:<span>5</span></p></div>
+    </div>
+    <div class="bed-bath-divs">
+      <div><p>Area:<span>450m2</span></p></div>
+      <div><p>Floor:<span>3</span></p></div>
+      <div><p>Parking:<span>8 spots</span></p></div>
+    </div>
+    <div class="schedule-btn-container">
+      <div class="schedule-btn">Schedule a visit</div>
+    </div>
+   </div>
+  </div>
+   <div class="general-info">
+   <div>
+     <img class="asset01" src="images2/property-03.jpg">
+   </div>
+   <div class="lower-div">
+    <div class="villa-type">
+      <div class="villa-btn"><p>Luxury Villa</p></div>
+      <div><p class="price-div">$1.460.000</p></div>
+    </div>
+    <div class="location-div">
+      <p>26 Old Street Miami, OR 38540</p>
+    </div>
+    <div class="bed-bath-div">
+      <div><p>Bedrooms:<span>5</span></p></div>
+      <div><p>Bathrooms:<span>4</span></p></div>
+    </div>
+    <div class="bed-bath-divs">
+      <div><p>Area:<span>225m2</span></p></div>
+      <div><p>Floor:<span>3</span></p></div>
+      <div><p>Parking:<span>10 spots</span></p></div>
+    </div>
+    <div class="schedule-btn-container">
+      <div class="schedule-btn">Schedule a visit</div>
+    </div>
+   </div>
+  </div>
+   <div class="general-info">
+   <div>
+     <img class="asset01" src="images2/property-04.jpg">
+   </div>
+   <div class="lower-div">
+    <div class="villa-type">
+      <div class="villa-btn"><p>Luxury Villa</p></div>
+      <div><p class="price-div">$584.000</p></div>
+    </div>
+    <div class="location-div">
+      <p>12 New Street Miami, OR 12650</p>
+    </div>
+    <div class="bed-bath-div">
+      <div><p>Bedrooms:<span>4</span></p></div>
+      <div><p>Bathrooms:<span>3</span></p></div>
+    </div>
+    <div class="bed-bath-divs">
+      <div><p>Area:<span>125m2</span></p></div>
+      <div><p>Floor:<span>25th</span></p></div>
+      <div><p>Parking:<span>2 cars</span></p></div>
+    </div>
+    <div class="schedule-btn-container">
+      <div class="schedule-btn">Schedule a visit</div>
+    </div>
+   </div>
+  </div>
+   <div class="general-info">
+   <div>
+     <img class="asset01" src="images2/property-05.jpg">
+   </div>
+   <div class="lower-div">
+    <div class="villa-type">
+      <div class="villa-btn"><p>Luxury Villa</p></div>
+      <div><p class="price-div">$925.000</p></div>
+    </div>
+    <div class="location-div">
+      <p>34 Beach Street Miami, OR 42680</p>
+    </div>
+    <div class="bed-bath-div">
+      <div><p>Bedrooms:<span>4</span></p></div>
+      <div><p>Bathrooms:<span>4</span></p></div>
+    </div>
+    <div class="bed-bath-divs">
+      <div><p>Area:<span>180m2</span></p></div>
+      <div><p>Floor:<span>38th</span></p></div>
+      <div><p>Parking:<span>2 cars</span></p></div>
+    </div>
+    <div class="schedule-btn-container">
+      <div class="schedule-btn">Schedule a visit</div>
+    </div>
+   </div>
+  </div>
+   <div class="general-info">
+   <div>
+     <img class="asset01" src="images2/property-06.jpg">
+   </div>
+   <div class="lower-div">
+    <div class="villa-type">
+      <div class="villa-btn"><p>Luxury Villa</p></div>
+      <div><p class="price-div">$450.000</p></div>
+    </div>
+    <div class="location-div">
+      <p>22 New Street Portland, OR 16540</p>
+    </div>
+    <div class="bed-bath-div">
+      <div><p>Bedrooms:<span>3</span></p></div>
+      <div><p>Bathrooms:<span>2</span></p></div>
+    </div>
+    <div class="bed-bath-divs">
+      <div><p>Area:<span>165m2</span></p></div>
+      <div><p>Floor:<span>26th</span></p></div>
+      <div><p>Parking:<span>3 cars</span></p></div>
+    </div>
+    <div class="schedule-btn-container">
+      <div class="schedule-btn">Schedule a visit</div>
+    </div>
+   </div>
+  </div>
+</div>
     </div>
   </body>
 </html>

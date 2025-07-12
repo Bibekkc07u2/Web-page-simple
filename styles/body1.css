@@ -345,6 +345,7 @@
   padding-top: 50px;
   justify-content: space-around;
   padding-left: 50px;
+  padding-bottom: 50px;
 }
 .main-info {
   display: flex;
@@ -455,5 +456,6 @@
     flex-direction: column;
     gap: 40px;
     align-items: center;
+    padding-bottom: 30px;
   }
 }
